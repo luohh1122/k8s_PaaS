@@ -801,6 +801,12 @@ run: sidekiq: (pid 17395) 155s; run: log: (pid 17412) 152s
 run: unicorn: (pid 17337) 166s; run: log: (pid 17368) 162s
 ~~~
 
+安装完成后需要登录gitlab：
+user：root
+password：cat /etc/gitlab/initial_root_password   查看初始密码
+登录后切换语言并更改密码
+
+
 然后把代码传进来
 
 ![1583129295099](assets/1583129295099.png)
